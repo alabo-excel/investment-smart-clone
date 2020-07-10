@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  max-width: 100%!important;
+}
+header ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 30px;
+}
+header {
+  display: inline;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+}
+#nav-second{
+  display: none;
+  padding-top: 50px;
+  position: fixed;
+  height: 90vh;
+  background-color: white;
+}
+#nav-second ul .active{
+background-color:#ca970b;
+color: white;
+}
+.close{
+  display: none;
+}
+#nav-second ul li{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  color: #00030a;
+  background: #fff;
+  padding: 15px;
+  padding-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.active {
+  color: #ca970b;
+}
+header img {
+  margin-left: 150px;
+  margin-right: 100px;
+  width: 100px;
+}
+#hero {
+  text-align: center;
+  padding-top: 180px;
+  color: white;
+  height: 80vh;
+  background-image: url("../img/bg-image-6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 1px 1px gray;
+}
+#hero h1{
+  font-size: 60px;
+}
+#hero input{
+  padding: 15px;
+  border: none;
+  background-color: #ca970b;
+  color: white;
+  font-size: 20px;
+}
+#card {
+  max-width: 400px;
+  padding: 50px 30px 51px;
+  margin-right: 20px;
+  margin-left: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+#card i {
+  color: #ca970b;
+}
+.section h1 {
+  padding-bottom: 60px;
+  padding-top: 40px;
+  font-size: 40px;
+  color: #050521;
+  font-weight: 700 !important;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 220px;
+  padding-right: 220px;
+}
+.gold-border {
+  height: 3px;
+  background-color: #ca970b;
+  width: 70px;
+  align-self: center;
+  margin-top: 5px;
+}
+#card h3 {
+  color: #050521;
+  font-weight: 700 !important;
+}
+#img-background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mission {
+  padding-left: 100px;
+  background-color: #f2f3f8;
+}
+#mission h1 {
+  padding-bottom: 40px;
+  padding-top: 60px;
+  font-size: 40px;
+  color: #050521;
+  font-weight: 700 !important;
+}
+#mission h5 {
+  font-weight: 700;
+  color: #050521;
+}
+.border-inside {
+  background-color: rgba(5, 5, 33, 0.9);
+  margin-left: -20px;
+  width: 110%;
+  height: 100%;
+}
+.border-content {
+  position: absolute;
+  top: 0;
+  bottom: 0px;
+  color: white;
+  padding: 100px;
+}
+.border-content h1 {
+  font-weight: 700 !important;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.border-content input {
+  padding: 10px;
+  background-color: #ca970b;
+  border: none;
+  width: 70%;
+  color: white;
+}
+#team {
+  text-align: center;
+  padding: 100px;
+}
+#team h1 {
+  color: #050521;
+  padding: 20px;
+}
+.team-info {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  background-color: #050521;
+  color: #f2f3f8;
+  width: 60%;
+}
+.divider {
+  background-color: #ca970b;
+  height: 3px;
+  width: 50%;
+  margin-left: 55px;
+}
+#bg-img {
+  margin-top: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  text-align: center;
+}
+#blue-bg{
+  background-color: rgba(5, 5, 33, 0.9);
+  width: 100%;
+  height: 400px;
+  margin: 0px!important;
+}
+.bg-content{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  padding-top: 50px;
+}
+.bg-content h1{
+  text-align: center;
+
+}
+#facts-numbers{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+#facts-numbers div{
+  padding: 70px;
+}
+#facts-numbers i{
+  color: #ca970b;
+}
+#team{
+  padding: 0px;
+}
+.calculator{
+  text-align: center;
+}
+.calculator h1{
+  color: #050521;
+  font-weight: 700!important;
+}
+.calculator input{
+  padding: 10px;
+  border: none;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.results{
+  display: flex;
+}
+#form input{
+padding: 13px;
+border: none;
+width: 250px;
+}
+#form label{
+  margin: 20px;
+
+}
+#investment{
+  padding-left: 90px;
+}
+
+#latest-news h1{
+  text-align: center;
+  color: #050521;
+  margin-bottom: 40px;
+  font-weight: 700!important;
+}
+#latest-news .card{
+  padding-left: 0;
+  padding-right: 0;  
+}
+#bars{
+  display: none;
+}
+
+#clients div img{
+  padding: 60px;
+}
+.footer{
+  background-color: #050521;
+  color: white;
+  padding: 80px;
+  padding-bottom: 10px;
+}
+#footer-links{
+  display: flex;
+}
+#footer-links ul{
+  margin: 20px;
+}
+.footer img{
+  border-radius: 5px;
+  width: 100px;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+hr{
+  background-color: white;
+}
+
+
+
+
+@media (max-width: 900px) {
+  #header {
+    display: none !important;
+  }
+  #card {
+    padding: 20px;
+    margin: 15px;
+  }
+  .section h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  #card h3 {
+    font-size: 15px;
+  }
+  #card p {
+    font-size: 10px;
+  }
+  .section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 60px;
+    padding-right: 20px;
+  }
+  #mission {
+    padding-left: 30px;
+  }
+  .border-content {
+    padding: 20px;
+  }
+  .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  #mission img {
+    width: 100%;
+  }
+  .bg-content h1{
+    font-size: 20px;
+  }
+  #bars{
+    display: block;
+  }
+}
+@media (max-width: 500px) {
+  .section {
+    padding-left: 20px;
+  }
+  #mission img {
+    width: 100%;
+  }
+  .border-content {
+    position: relative;
+    top: -100%;
+  }
+  .border-content input {
+    width: 80%;
+  }
+  #blue-bg{
+    height: 500px;
+  }
+  .footer{
+    padding: 20px;
+  }
+  .footer p{
+    font-size: 15px;
+  }
+  .footer h1{
+    font-size: 20px;
+  }
+  #facts-numbers div{
+    padding: 25px;
+  }
+  #clients div img {
+    padding: 10px;
+    margin-left: 100px;
+  }
+}
